@@ -29,6 +29,7 @@ source .venv/bin/activate   # Mac/Linux
 pip install -r requirements-prework.txt
 ```
 ## How to run
+
 1. Set up the environment:
    - Create a virtual environment:
      python -m venv .venv
