@@ -28,3 +28,20 @@ source .venv/bin/activate   # Mac/Linux
 # or: source .venv/Scripts/activate  (Windows Git Bash)
 pip install -r requirements-prework.txt
 ```
+## How to run
+
+1. Set up the environment:
+   - Create a virtual environment:
+     python -m venv .venv
+   - Activate it:
+     source .venv/Scripts/activate
+   - Install dependencies:
+     pip install -r requirements-prework.txt
+
+2. Run the code:
+   - From the project root directory, run:
+     pytest
+
+3. Confirm success:
+   - All tests should pass without errors.
+   - You should see a message indicating that tests completed successfully.
